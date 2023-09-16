@@ -30,7 +30,7 @@ class ContentViewController: NSViewController {
         view.layer = previewLayer
         view.wantsLayer = true
         
-        checkCameraPermission()
+        self.setUpCamera()
     }
     
     override func viewWillDisappear() {
@@ -38,30 +38,6 @@ class ContentViewController: NSViewController {
         
         self.session?.stopRunning()
         removeFromParent()
-    }
-    
-    private func checkCameraPermission() {
-        switch AVCaptureDevice.authorizationStatus(for: .video) {
-        case .notDetermined:
-            // Request
-            AVCaptureDevice.requestAccess(for: .video) { [weak self] granted in
-                guard granted else {
-                    return
-                }
-                
-                DispatchQueue.main.async {
-                    self?.setUpCamera()
-                }
-            }
-        case .restricted:
-            break
-        case .denied:
-            break
-        case .authorized:
-            setUpCamera()
-        @unknown default:
-            break
-        }
     }
     
     private func setUpCamera() {
