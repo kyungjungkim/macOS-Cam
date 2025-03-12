@@ -17,7 +17,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Insert code here to initialize your application
         
         let contentVC = ContentViewController()
-        
         self.window.contentViewController = contentVC
         
         self.window.center()
@@ -30,7 +29,5 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationSupportsSecureRestorableState(_ app: NSApplication) -> Bool {
         return true
     }
-
-
 }
 

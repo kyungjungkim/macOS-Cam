@@ -11,7 +11,6 @@
 		A1B51E032920C2240069D1F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B51E022920C2240069D1F9 /* Assets.xcassets */; };
 		A1B51E062920C2240069D1F9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1B51E042920C2240069D1F9 /* MainMenu.xib */; };
 		A1B51E1D2920DC040069D1F9 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B51E1B2920DC040069D1F9 /* ContentViewController.swift */; };
-		A1B51E1E2920DC040069D1F9 /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1B51E1C2920DC040069D1F9 /* ContentViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +21,6 @@
 		A1B51E052920C2240069D1F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		A1B51E072920C2240069D1F9 /* macOSCam.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOSCam.entitlements; sourceTree = "<group>"; };
 		A1B51E1B2920DC040069D1F9 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
-		A1B51E1C2920DC040069D1F9 /* ContentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +53,12 @@
 		A1B51DFF2920C2210069D1F9 /* macOSCam */ = {
 			isa = PBXGroup;
 			children = (
-				A1071BF52921000100260287 /* Info.plist */,
 				A1B51E002920C2210069D1F9 /* AppDelegate.swift */,
 				A1B51E022920C2240069D1F9 /* Assets.xcassets */,
-				A1B51E042920C2240069D1F9 /* MainMenu.xib */,
-				A1B51E072920C2240069D1F9 /* macOSCam.entitlements */,
 				A1B51E1B2920DC040069D1F9 /* ContentViewController.swift */,
-				A1B51E1C2920DC040069D1F9 /* ContentViewController.xib */,
+				A1071BF52921000100260287 /* Info.plist */,
+				A1B51E072920C2240069D1F9 /* macOSCam.entitlements */,
+				A1B51E042920C2240069D1F9 /* MainMenu.xib */,
 			);
 			path = macOSCam;
 			sourceTree = "<group>";
@@ -126,7 +123,6 @@
 			files = (
 				A1B51E032920C2240069D1F9 /* Assets.xcassets in Resources */,
 				A1B51E062920C2240069D1F9 /* MainMenu.xib in Resources */,
-				A1B51E1E2920DC040069D1F9 /* ContentViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
