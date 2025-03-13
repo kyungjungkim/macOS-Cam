@@ -35,7 +35,7 @@ class ContentView: NSView {
         self.setUpCamera()
     }
     
-    deinit {
+    func dealloc() {
         self.session?.stopRunning()
     }
  
