@@ -283,6 +283,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = macOSCam/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = cam;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow to take photo.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -316,6 +317,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = macOSCam/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = cam;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow to take photo.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
