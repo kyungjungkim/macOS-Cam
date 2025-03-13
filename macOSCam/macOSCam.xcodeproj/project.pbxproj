@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A15D4F392D82E20500345C52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15D4F382D82E20500345C52 /* ContentView.swift */; };
 		A1B51E012920C2210069D1F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B51E002920C2210069D1F9 /* AppDelegate.swift */; };
 		A1B51E032920C2240069D1F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B51E022920C2240069D1F9 /* Assets.xcassets */; };
 		A1B51E062920C2240069D1F9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1B51E042920C2240069D1F9 /* MainMenu.xib */; };
-		A1B51E1D2920DC040069D1F9 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B51E1B2920DC040069D1F9 /* ContentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A1071BF52921000100260287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A15D4F382D82E20500345C52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1B51DFD2920C2210069D1F9 /* macOSCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macOSCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B51E002920C2210069D1F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1B51E022920C2240069D1F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1B51E052920C2240069D1F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		A1B51E072920C2240069D1F9 /* macOSCam.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOSCam.entitlements; sourceTree = "<group>"; };
-		A1B51E1B2920DC040069D1F9 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			children = (
 				A1B51E002920C2210069D1F9 /* AppDelegate.swift */,
 				A1B51E022920C2240069D1F9 /* Assets.xcassets */,
-				A1B51E1B2920DC040069D1F9 /* ContentViewController.swift */,
+				A15D4F382D82E20500345C52 /* ContentView.swift */,
 				A1071BF52921000100260287 /* Info.plist */,
 				A1B51E072920C2240069D1F9 /* macOSCam.entitlements */,
 				A1B51E042920C2240069D1F9 /* MainMenu.xib */,
@@ -133,8 +133,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1B51E1D2920DC040069D1F9 /* ContentViewController.swift in Sources */,
 				A1B51E012920C2210069D1F9 /* AppDelegate.swift in Sources */,
+				A15D4F392D82E20500345C52 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

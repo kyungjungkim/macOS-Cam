@@ -1,14 +1,14 @@
 //
-//  ContentViewController.swift
+//  ContentView.swift
 //  macOSCam
 //
-//  Created by Kyungjung Kim on 2022/11/13.
+//  Created by Kyungjung Kim on 3/13/25.
 //
 
 import Cocoa
 import AVFoundation
 
-class ContentViewController: NSViewController {
+class ContentView: NSView {
 
     // Capture Session
     var session: AVCaptureSession?
@@ -21,27 +21,24 @@ class ContentViewController: NSViewController {
     
     let captureSession = AVCaptureSession()
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do view setup here.
+    override func draw(_ dirtyRect: NSRect) {
+        super.draw(dirtyRect)
+
+        // Drawing code here.
+        self.setFrameSize(NSSize(width: 500.0, height: 500.0))
+        self.layer?.backgroundColor = CGColor.black
         
-        self.view.setFrameSize(NSSize(width: 500.0, height: 500.0))
-        self.view.layer?.backgroundColor = CGColor.black
-        
-        previewLayer.frame = self.view.bounds
-        view.layer = previewLayer
-        view.wantsLayer = true
+        previewLayer.frame = self.bounds
+        layer = previewLayer
+        wantsLayer = true
         
         self.setUpCamera()
     }
     
-    override func viewWillDisappear() {
-        super.viewWillDisappear()
-        
+    deinit {
         self.session?.stopRunning()
-        removeFromParent()
     }
-    
+ 
     private func setUpCamera() {
 //        captureSession.sessionPreset = .low
         selectSessionPreset()

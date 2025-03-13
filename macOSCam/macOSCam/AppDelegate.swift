@@ -16,9 +16,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
         
-        let contentVC = ContentViewController()
-        self.window.contentViewController = contentVC
-        
+//        let contentVC = ContentViewController()
+//        self.window.contentViewController = contentVC
+//        
         self.window.center()
     }
 

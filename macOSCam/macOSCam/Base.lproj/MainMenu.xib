@@ -687,7 +687,7 @@
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="335" y="390" width="586" height="356"/>
             <rect key="screenRect" x="0.0" y="0.0" width="2240" height="1235"/>
-            <view key="contentView" id="EiT-Mj-1SZ">
+            <view key="contentView" id="EiT-Mj-1SZ" customClass="ContentView" customModule="macOSCam" customModuleProvider="target">
                 <rect key="frame" x="0.0" y="0.0" width="586" height="356"/>
                 <autoresizingMask key="autoresizingMask"/>
             </view>
